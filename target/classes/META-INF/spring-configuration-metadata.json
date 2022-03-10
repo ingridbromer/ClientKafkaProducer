@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "api.teste.Testando.config.AppConfigProperties",
+      "sourceType": "api.teste.Testando.config.AppConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.kafka-topic-num-partitions",
+      "type": "java.lang.Integer",
+      "sourceType": "api.teste.Testando.config.AppConfigProperties"
+    },
+    {
+      "name": "app.kafka-topic-replication-factor",
+      "type": "java.lang.Short",
+      "sourceType": "api.teste.Testando.config.AppConfigProperties"
+    },
+    {
+      "name": "app.output-kafka-topic",
+      "type": "java.lang.String",
+      "sourceType": "api.teste.Testando.config.AppConfigProperties"
+    }
+  ],
+  "hints": []
+}
